@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* 类样式以点开头 */
+body{
+	font-size: 13px;
+	margin: 0;
+	background-color:;
+}
+.pb{
+	font-weight:900;
+}
+.it{
+	margin-top:30px;
+}
+.red{
+	color:red;
+}
+.p{
+	font-size: 24px;
+}
+.top{
+	border-top: 3px solid #B97F78;/* 高度 ，实线，颜色 */
+	height:100px;
+	line-height: 100px;
+}
+.top h1{
+	line-height: 100px;
+}
+.container{
+	width:1000px;
+	margin: 0 auto;/* 上下，左右居中 */
+}
+.middle{
+	/*相对路径：../指的是上一层目录*/
+	background: url(../image/etc.png)  ;/* 背景颜色的简写属性 */
+	height:500px;
+	background-size:100% auto;
+	
+}
+.fl{
+	/* 左浮动  */
+	float:left;
+}
+.fr{
+	/* 右浮动 */
+	float:right;
+}
+a{
+	text-decoration: none;/* 超链接下划线
+	 */
+	color:#51A0EA;
+}
+.clear{
+	clear:both;/* 清除浮动 */
+}
+/* 相对路径 中间加空格 */
+ .login{
+	width:400px;
+	height:300px;
+	float:right;
+	background-color:rgba(255,255,255,0.7);
+	margin-top: 80px;
+	background-color: ;
+}
+.loginContent{
+	width: 300px;
+	height: 250px;
+	margin: 20px auto 0;
+	
+}
+ .it{
+	width:280px;
+	height:40px;
+	border: 1px solid #ccc;
+	line-height: 40px;
+	background-color:#fff;
+}
+ .it i{
+	display:inline-block;/* 变为一个块级元素 */
+	width:18px;
+	height:18px;
+	background: url('../image/page_login_z260591.png');
+	float: left;
+	margin-top: 11px;
+}
+
+.pwd{
+	
+}
+ .txt{
+	width: 245px;
+	height: 38px;
+	background-color:rgba(255,255,255,0);
+	border:none;
+	float: right;
+}
+ .dl{
+	width:320px;
+	height:25px;
+	margin-top:10px;
+	margin-left:100px;
+}
+.btn{
+	width:100px;
+	height:30px;
+	background-color: #B97F78;
+	border:0;
+}
+
+

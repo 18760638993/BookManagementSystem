@@ -1,0 +1,96 @@
+*{
+				padding: 0;
+				margin: 0;
+			}
+			.view{
+				width: 1080px;
+				height: auto;
+				/*margin: 100px auto;*/
+				position: relative;
+			}
+			.view ul{
+				width: 100%;
+				height: 100%;
+				list-style: none;
+				/*方便观看  从侧面  旋转ul*/
+				
+				/*transform: rotate3d(1,1,0,-30deg);*/
+				/*保留旋转后的结果*/
+				transform-style: preserve-3d;
+			}
+			.view ul > li{
+				/*每个li是ul的  五分之一*/
+				width: 20%;
+				height: 100%;
+				/*background-color: #ccc;*/
+				float: left;
+				position: relative;
+				transform-style: preserve-3d;
+				transition: transform 0.5s;
+			}
+			.view ul > li > span{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				
+			}
+			.view ul > li > span:nth-of-type(1){
+				background: url(../image/d1.jpg);
+				background-size: 1080px;
+				/*往z轴正方向偏移*/
+				transform: translateZ(150px);
+			}
+			.view ul > li > span:nth-of-type(2){
+				background: url(../image/d2.jpg);
+				background-size: 1080px;
+				 /*往y轴负方向移动*/
+				transform: translateY(-150px) rotateX(90deg);
+				
+			}
+			.view ul > li >span:nth-of-type(3){
+				background: url(../image/d3.jpg);
+				background-size: 1080px;
+				/*往z轴的负方向移动*/
+				transform: translateZ(-150px) rotateX(180deg);
+			}
+			.view ul > li > span:nth-of-type(4){
+				background: url(../image/d4.jpg);
+				background-size: 1080px;
+				/*往y轴的正方向移动*/
+				transform: translateY(150px) rotateX(-90deg);
+			}
+			/*设置每一个li元素的span所显示的图片位置*/
+			.view ul > li:nth-of-type(2) > span{
+				background-position: -100% 0;
+			}
+			.view ul > li:nth-of-type(3) > span{
+				background-position: -200% 0;
+			}
+			.view ul > li:nth-of-type(4) > span{
+				background-position: -300% 0;
+			}
+			.view ul > li:nth-of-type(5) > span{
+				background-position: -400% 0;
+			}
+			.pre,.next{
+				width: 60px;
+				height: 60px;
+				/*display: block;*/
+				text-decoration: none;
+				text-align: center;
+				line-height: 60px;
+				position: absolute;
+				top: 50%;
+				transform: translate(0,-50%);
+				font-size: 40px;
+				background-color: rgba(0,0,0,.5);
+				color: #fff;
+			}
+			.pre{
+				left: 0;
+			}
+			.next{
+				right: 0;
+			}

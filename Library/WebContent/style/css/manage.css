@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.w{
+	width: 1292px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img,input{
+	vertical-align: middle;
+}
+
+.header{
+	height: 50px;
+	background-color: #952c1a;
+}
+.h-left{
+	height: 50px;
+	float: left;
+}
+.heade span{
+	color: #FFFFFF;
+	height: 50px;
+	line-height: 50px;
+}
+.h-right{
+	height: 50px;
+	float: right;
+}
+.h-right ul{
+	
+}
+.h-right li{
+	float: left;
+	line-height: 50px;
+	margin: 0 20px;
+}
+.h-right li a{
+	color: #FFFFFF;
+}
+
+
+.nav{
+	background-color: #f2f1ea;
+	height: 120px;
+}
+.n-left{
+	width: 305px;
+	height: 120px;
+	background: url(../image/logo.png) no-repeat center center;
+	float: left;
+}
+.n-right{
+	width: 530px;
+	height: 45px;
+	/*background-color: green;*/
+	float: right;
+	margin-top: 37px;
+	margin-right: 30px;
+}
+.n-right input{
+	width: 440px;
+	height: 40px;
+	float: left;
+	border: 1px solid #952c1a;
+	font-size: 16px;
+}
+.n-right button{
+	width: 85px;
+	height: 42px;
+	outline: none;
+	float: left;
+	background-color: #952c1a;
+	color: #FFFFFF;
+	border: 1px solid #952c1a;
+	cursor: pointer;
+}
+
+
+.main{
+	height: 300px;
+	/*background-color: pink;*/
+}
+.m-left{
+	height: 300px;
+	width: 190px;
+	/*background-color: green;*/
+	float: left;
+}
+/*.m-left ul{
+	border-radius: 5px;
+}*/
+.m-left li{
+	width: 190px;
+	height: 98px;
+	line-height: 100px;
+	text-align: center;
+	border-bottom: 1px solid #dedede;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	cursor: pointer;
+}
+.m-left li:nth-of-type(1){
+	height: 49px;
+	line-height: 50px;
+	border-top: 1px solid #dedede;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.m-left li:nth-of-type(6){
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.m-left li a{
+	color: #000000;
+}
+.m-right{
+	width: 1080px;
+	height: 200px;
+	float: right;
+	
+}
+.m-right img{
+	width: 100%;
+}
+.current{
+	background-color: #952c1a;
+}
+
+.m-right{
+	width: 1090px;
+	height: 1000px;
+	/*background-color: pink;*/
+}
+.m-right .container{
+	width: 140px;
+	height: 50px;
+	float:right;
+	line-height: 50px;
+}
+table th,td{
+	text-align: center;
+}

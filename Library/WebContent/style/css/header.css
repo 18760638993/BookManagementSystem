@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body{
+	width:1292px;
+	margin:0 auto;
+	border:0px solid #FFF;
+	box-sizing:border-box;
+}
+/* img{
+	vertical-align:middle;图片上下居中
+} */
+a{
+	text-decoration:none;/*超链接下划线消除*/
+	color:#91C3F2;
+}
+li{
+	list-style: none;
+}
+.header{
+	height:60px;
+	background-color:#1c7079;
+}
+
+.h-right{
+	height: 50px;
+	float: right;
+}
+.h-right ul{
+	
+}
+.h-right li{
+	float: left;
+	line-height: 50px;
+	margin-right:35px;
+}
+.h-right li a{
+	color:#eff5f5;
+}
+
+.fl h2{
+	font-family:"楷体";
+	font-style:italic;/*设置字体为斜体  */
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
